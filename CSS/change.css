@@ -1,0 +1,21 @@
+body{
+    background-color: aquamarine;
+    transition: background-color 5s ease-in-out 7s;
+}
+body:hover{
+    background-color: pink;
+}
+img{
+    animation:moves 10s linear 3s 4;
+}
+@keyframes moves{
+    0%
+    {
+        background-color: cornflowerblue;
+        color: darkgrey;
+    }
+    20%
+    {
+        font-family: "t";
+    }
+}

@@ -1,0 +1,12 @@
+form{
+    margin: 0.2cm 0.3cm 0.5cm 0.1cm;
+    border-style:groove;
+    border-width: 0.6cm;
+    border-color: blanchedalmond;
+    border-radius: 0.6cm;
+    padding: 0.6cm 0.2cm 0.6cm;
+}
+input{
+    position:static;
+    top:1cm;
+}
