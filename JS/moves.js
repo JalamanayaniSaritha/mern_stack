@@ -41,3 +41,18 @@ document.addEventListener(
         box.style.top = y + "px";
     }
 );
+box.addEventListener("click", () => {
+    box.style.backgroundColor = "red";
+});
+box.addEventListener("dblclick", () => {
+    box.style.backgroundColor = "green";
+});
+box.addEventListener("mouseover", () => {
+    box.style.backgroundColor = "yellow";
+});
+box.addEventListener("mouseleave", () => {
+    box.style.backgroundColor = "blue";
+});
+document.addEventListener("keyup", (event) => {
+    console.log(event.key);
+});
