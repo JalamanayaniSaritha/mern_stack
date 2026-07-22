@@ -15,4 +15,10 @@ let promise = new Promise((resolve,reject)=>{
 async function sum(params){
     return 7+8;
 }
-sum().then(result=>console.log(result));
+//sum().then(result=>console.log(result));
+let std={
+    Name:"saritha",
+    age:20,
+};
+let json=JSON.stringify(std);
+console.log(json);
