@@ -14,7 +14,7 @@ app.use(express.json());
 const MONGO_URI =
   process.env.MONGO_URI || "mongodb://localhost:27017/Demodb";
 
-mongoose
+mongoose          
   .connect(MONGO_URI)
   .then(() => console.log("MongoDB connected"))
   .catch((err) => console.error(err));
